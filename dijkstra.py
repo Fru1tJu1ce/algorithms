@@ -38,7 +38,7 @@ dijkstra_matrix[next_point[0]] = 0
 result = []
 checked_points = [next_point[0]]
 
-for i in range(5):
+for i in range(len(matrix_contiguity) - 1):
     positives = finding_positive(next_point[0], matrix_contiguity,
                                  checked_points)
 
